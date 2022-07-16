@@ -17,7 +17,7 @@ static  List<Widget>_widgetOptions=<Widget>[Homepage(),addInterface()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      
       //backgroundColor: Colors.blue,
      body: _widgetOptions[currentIndex],
       bottomNavigationBar: BottomNavigationBar(type:BottomNavigationBarType.fixed,
